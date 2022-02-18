@@ -1,6 +1,6 @@
 class Main {
   public static void main(String[] args) {
-    int totalEggs = 15;
+    int totalEggs = 0;
      int eggsPerChicken = 4;
      int chickenCount = 8;
      totalEggs= eggsPerChicken*chickenCount;
@@ -23,8 +23,5 @@ class Main {
       System.out.println("Saturday:"+totalEggs);
      totalEggs+= eggsPerChicken*chickenCount;
       System.out.println("Sunday:"+totalEggs);
-  
- 
-
   }
 }
